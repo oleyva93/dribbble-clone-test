@@ -28,24 +28,24 @@ const getHeaderData = (): Promise<HeaderData> =>
 //hooks
 
 export const useSiteData = (options = {}) => {
-  //   return useSWR(LayoutEnum.HEADER, () => getHeaderData(), options);
-  return { data: headerResponse };
+  return useSWR(LayoutEnum.HEADER, () => getHeaderData(), options);
+  //   return { data: headerResponse };
 };
 
-const headerResponse = {
-  nav: [
-    {
-      title: "Our offerings",
-      link: "/",
-    },
-    {
-      title: "Customer stories",
-      link: "/",
-    },
-  ],
-  home: {
-    "header-title":
-      'No run-around, <span class="title-accent">just</span> affordable life insurance',
-    "header-cta": "Talk to an agent today",
-  },
-};
+// const headerResponse = {
+//   nav: [
+//     {
+//       title: "Our offerings",
+//       link: "/",
+//     },
+//     {
+//       title: "Customer stories",
+//       link: "/",
+//     },
+//   ],
+//   home: {
+//     "header-title":
+//       'No run-around, <span class="title-accent">just</span> affordable life insurance',
+//     "header-cta": "Talk to an agent today",
+//   },
+// };
