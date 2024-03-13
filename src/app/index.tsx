@@ -1,13 +1,16 @@
-import { Outlet } from "react-router-dom";
+import Footer from "./components/footer";
+import LeftSection from "./components/left-section";
 
-import { AppProvider } from "shared/providers/app-provider";
+import RightSection from "./components/right-section";
+import "./index.css";
 
 const DribbbleApp = () => {
   return (
-    <AppProvider>
-      ... // The rest of the app
-      <Outlet />
-    </AppProvider>
+    <main className="grid [grid-template-rows:1fr_.336fr] h-[100dvh]">
+      <LeftSection />
+      <RightSection />
+      <Footer />
+    </main>
   );
 };
 

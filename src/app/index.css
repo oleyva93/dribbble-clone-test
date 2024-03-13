@@ -1,0 +1,23 @@
+.right-section-figure {
+    clip-path: polygon(31% 0, 100% 0, 100% 79%, 100% 100%, 38% 100%, 0 74.8%, 0 22%)
+}
+
+.banner-info-figure {
+    clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
+}
+
+.arrow-dow-figure {
+    clip-path: polygon(48% 100%, 0 0, 100% 0);
+}
+
+.main-section-figure {
+    clip-path: polygon(39% 0, 100% 0, 100% 60%, 100% 100%, 48% 100%, 0 75%, 0 27%);
+}
+
+.price-section-figure {
+    clip-path: polygon(0 0, 76% 0, 100% 35%, 100% 99%, 0 100%, 0% 50%);
+}
+
+.title-accent {
+    color: #d2abe4;
+}
