@@ -19,7 +19,12 @@ const LeftSection: React.FC = () => {
               __html: data?.home?.["header-title"] ?? "",
             }}
           />
-          <button className="text-xs font-bold px-1 bg-[#eaff6c] w-56 h-11 shadow-[4px_4px_0px_0_#d2aae4]">
+          <button className="font-bold bg-[#eaff6c] w-[16rem] h-11 shadow-[4px_4px_0px_0_#d2aae4] flex gap-4 items-center justify-center text-base">
+            <img
+              src="avatar-btn.png"
+              alt="avatar"
+              className="w-[32px] h-[32px]"
+            />
             {data?.home["header-cta"]}
           </button>
         </main>
@@ -38,7 +43,9 @@ const LeftSection: React.FC = () => {
                 500k
               </span>
             </div>
-            <span className="mt-8 text-xl font-light">$10.99 / month</span>
+            <span className="mt-6 text-base text-[#474e21] font-light">
+              $10.99 / month
+            </span>
           </div>
         </article>
       </div>
