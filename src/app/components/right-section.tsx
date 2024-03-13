@@ -11,10 +11,7 @@ const RightSection: React.FC = () => {
           </button>
         </header>
         <main className="pt-12 w-full h-full flex items-end">
-          <img
-            className="h-full object-cover"
-            src="src/assets/right-image.webp"
-          ></img>
+          <img className="h-full object-cover" src="right-image.webp"></img>
         </main>
       </div>
     </section>
