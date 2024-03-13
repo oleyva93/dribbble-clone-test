@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="bg-[#bfc88a] pl-11 pb-11 pr-11">
       <div className="h-full bg-[#f6fcd5] rounded-b-lg grid">
         <section className="flex items-end h-fit">
-          <div className="h-16 w-full md:w-[18rem] bg-[#d2abe4] banner-info-figure flex items-center px-5 text-white font-bold">
+          <div className="h-16 w-full md:w-[18rem] bg-[#d2abe4] banner-info-figure flex items-center px-5 md:px-14 text-white font-bold">
             <span>As seen on!</span>
           </div>
           <div className="hidden md:block h-8 w-52 border-t-2 border-r-2 -ml-14 border-[#d2abe4] relative">
