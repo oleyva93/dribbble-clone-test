@@ -11,10 +11,12 @@ const LeftSection: React.FC = () => {
         <main className="py-10 grid w-[42%] gap-y-2">
           <article
             className="text-[#eaff6c] text-4xl"
-            dangerouslySetInnerHTML={{ __html: data.home["header-title"] }}
+            dangerouslySetInnerHTML={{
+              __html: data?.home?.["header-title"] ?? "",
+            }}
           />
           <button className="text-xs font-bold px-1 bg-[#eaff6c] w-56 h-11 shadow-[4px_4px_0px_0_#d2aae4]">
-            {data.home["header-cta"]}
+            {data?.home["header-cta"]}
           </button>
         </main>
         <article className="fixed z-30 w-[16rem] h-28 bg-white top-[20%] left-[46.7%] price-section-figure flex">
