@@ -5,9 +5,9 @@ const Header: React.FC = () => {
   const { data } = useSiteData();
 
   return (
-    <header className="flex gap-8 h-9">
+    <header className="flex gap-8 h-fit">
       <img src="octo.png" alt="Dribbble" className="w-[100px] h-[35px]" />
-      <nav className="flex text-xs items-center gap-4">
+      <nav className="hidden md:flex text-xs items-center gap-4">
         {data?.nav.map((item) => (
           <div key={item.title}>
             <Link to={item.link} className="text-white">

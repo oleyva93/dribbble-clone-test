@@ -2,12 +2,12 @@
     clip-path: polygon(31% 0, 100% 0, 100% 79%, 100% 100%, 38% 100%, 0 74.8%, 0 22%)
 }
 
-.banner-info-figure {
-    clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
-}
-
 .arrow-dow-figure {
     clip-path: polygon(48% 100%, 0 0, 100% 0);
+}
+
+.arrow-left-figure {
+    clip-path: polygon(100% 0, 0 50%, 100% 100%);
 }
 
 .main-section-figure {
@@ -20,4 +20,10 @@
 
 .title-accent {
     color: #d2abe4;
+}
+
+@media (min-width: 640px) {
+    .banner-info-figure {
+        clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
+    }
 }

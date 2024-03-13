@@ -1,14 +1,18 @@
 import { useSiteData } from "shared/hooks/useHeaderData";
 import Header from "./header";
+import SessionInfo from "./session-info";
 
 const LeftSection: React.FC = () => {
   const { data } = useSiteData();
 
   return (
-    <section className="bg-[#ebf1ca] pl-11 pt-11">
+    <section className="bg-[#ebf1ca] pl-11 pt-11 pr-11">
       <div className="grid h-full bg-[#474e21] rounded-t-lg py-5 px-10">
-        <Header />
-        <main className="py-10 grid w-[42%] gap-y-2">
+        <div className="flex justify-between">
+          <Header />
+          <SessionInfo />
+        </div>
+        <main className="py-10 flex flex-col lg:w-[42%] gap-y-10">
           <article
             className="text-[#eaff6c] text-4xl"
             dangerouslySetInnerHTML={{
@@ -19,7 +23,7 @@ const LeftSection: React.FC = () => {
             {data?.home["header-cta"]}
           </button>
         </main>
-        <article className="fixed z-30 w-[16rem] h-28 bg-white top-[20%] left-[46.7%] price-section-figure flex">
+        <article className="hidden lg:flex sm:fixed lg:fixed z-30 w-[16rem] h-28 bg-white top-[20%] left-[46.7%] price-section-figure">
           <div className="bg-[#f6fcd5] p-2 flex items-center">
             <span className="uppercase font-bold text-sm [writing-mode:vertical-rl]">
               Covered
