@@ -35,13 +35,7 @@ async function handleResponse(response: Response) {
     throw new Error("Content-Type header is not present in the response");
   }
 
-  if (contentType.includes("text/plain")) {
-    return await response.text();
-  } else if (contentType.includes("application/json")) {
-    return await response.json();
-  } else {
-    throw new Error("Unsupported content type");
-  }
+  return await response.json();
 }
 
 const baseURL = process.env.REACT_APP_API_TEST_URL!;
@@ -52,6 +46,7 @@ const client: Client = {
   getHeader() {
     const headers = new Headers();
     headers.append("Content-Type", "application/json");
+    headers.append("Access-Control-Allow-Origin", "*");
     if (this.authorization) {
       headers.append("Authorization", `Bearer ${this.authorization}`);
     }
