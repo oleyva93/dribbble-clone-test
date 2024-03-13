@@ -19,7 +19,7 @@ const LeftSection: React.FC = () => {
               __html: data?.home?.["header-title"] ?? "",
             }}
           />
-          <button className="font-bold bg-[#eaff6c] w-[16rem] h-11 shadow-[4px_4px_0px_0_#d2aae4] flex gap-4 items-center justify-center text-base">
+          <button className="font-bold bg-[#eaff6c] px-4 py-2 w-fit shadow-[4px_4px_0px_0_#d2aae4] flex gap-4 items-center justify-center text-base">
             <img
               src="avatar-btn.png"
               alt="avatar"

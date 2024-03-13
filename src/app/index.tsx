@@ -6,7 +6,7 @@ import "./index.css";
 
 const OctoApp = () => {
   return (
-    <main className="grid [grid-template-rows:1fr_.336fr] h-[100dvh]">
+    <main className="grid [grid-template-rows:1fr_.336fr] h-[100dvh] min-h-[679px]">
       <LeftSection />
       <RightSection />
       <Footer />

@@ -14,7 +14,7 @@ const Footer = () => {
           <span className="font-bold text-xl">TechCrunch</span>
           <span className="font-bold text-xl">Forbes</span>
           <span className="uppercase">The wall Street Journal</span>
-          <div className="block sm:hidden absolute h-[12.7vh] w-6 right-7 top-[-38px] border-b-2 border-r-2 border-[#d2abe4]">
+          <div className="block sm:hidden absolute h-[15.7vh] w-6 right-7 top-0 border-b-2 border-r-2 border-[#d2abe4]">
             <div className="absolute right-[19px] -bottom-[7px] h-3 w-4 arrow-left-figure bg-[#d2abe4]" />
           </div>
         </section>
