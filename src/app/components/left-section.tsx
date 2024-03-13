@@ -23,7 +23,7 @@ const LeftSection: React.FC = () => {
             {data?.home["header-cta"]}
           </button>
         </main>
-        <article className="hidden lg:flex sm:fixed lg:fixed z-30 w-[16rem] h-28 bg-white top-[20%] left-[46.7%] price-section-figure">
+        <article className="hidden lg:flex sm:fixed lg:fixed z-30 w-[16rem] h-28 bg-white top-[20%] left-[47.2%] price-section-figure">
           <div className="bg-[#f6fcd5] p-2 flex items-center">
             <span className="uppercase font-bold text-sm [writing-mode:vertical-rl]">
               Covered

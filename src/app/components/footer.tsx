@@ -3,10 +3,10 @@ const Footer = () => {
     <footer className="bg-[#bfc88a] pl-11 pb-11 pr-11">
       <div className="h-full bg-[#f6fcd5] rounded-b-lg grid">
         <section className="flex items-end h-fit">
-          <div className="h-16 w-full sm:w-56 bg-[#d2abe4] banner-info-figure flex items-center justify-center pr-6 text-white font-bold">
+          <div className="h-16 w-full sm:w-[18rem] bg-[#d2abe4] banner-info-figure flex items-center justify-center pr-6 text-white font-bold">
             As seen on
           </div>
-          <div className="hidden sm:block h-8 w-56 border-t-2 border-r-2 -ml-8 border-[#d2abe4] relative">
+          <div className="hidden sm:block h-8 w-52 border-t-2 border-r-2 -ml-14 border-[#d2abe4] relative">
             <div className="absolute -right-[9px] bottom-0 h-2 w-4 arrow-dow-figure bg-[#d2abe4]" />
           </div>
         </section>
