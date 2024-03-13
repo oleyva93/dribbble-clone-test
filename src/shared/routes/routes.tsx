@@ -11,14 +11,14 @@ const ErrorElement = lazy(() =>
   retry(() => import("shared/components/error-element"))
 );
 
-const DribbbleApp = lazy(() => retry(() => import("app/index")));
+const OctoApp = lazy(() => retry(() => import("app/index")));
 
 export const routesConfig = createBrowserRouter([
   {
     path: "",
     element: (
       <Suspense fallback={<FallbackPage />}>
-        <DribbbleApp />
+        <OctoApp />
       </Suspense>
     ),
     errorElement: <ErrorElement />,
