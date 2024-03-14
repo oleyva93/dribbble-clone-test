@@ -1,7 +1,7 @@
-import Footer from "./components/footer";
-import LeftSection from "./components/left-section";
+import Footer from "./octo-layout/footer";
+import LeftSection from "./octo-layout/left-section";
 
-import RightSection from "./components/right-section";
+import RightSection from "./octo-layout/right-section";
 import "./index.css";
 
 const OctoApp = () => {

@@ -1,8 +1,8 @@
 import { useSiteData } from "shared/hooks/useHeaderData";
 
-import Header from "./header";
-import SessionInfo from "./session-info";
-import InfoBanner from "./info-banner";
+import Header from "./components/header";
+import SessionInfo from "./components/session-info";
+import InfoBanner from "./components/info-banner";
 
 const LeftSection: React.FC = () => {
   const { data } = useSiteData();

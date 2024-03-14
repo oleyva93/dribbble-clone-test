@@ -1,4 +1,4 @@
-import SessionInfo from "./session-info";
+import SessionInfo from "./components/session-info";
 
 const RightSection: React.FC = () => {
   return (
