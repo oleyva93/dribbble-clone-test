@@ -7,7 +7,7 @@ const SessionInfo: React.FC = () => {
       <button className="text-white text-xs font-bold px-4 py-2 rounded-md hidden sm:block">
         Log in
       </button>
-      <button className="text-[rgb(71,78,33)] lg:text-[#d2abe4] text-xs font-bold px-4 py-2 bg-[#d2abe4] lg:bg-[rgb(71,78,33)] hidden sm:block">
+      <button className="text-primary lg:text-primary-foreground text-xs font-bold px-4 py-2 bg-primary-foreground lg:bg-primary hidden sm:block">
         Get a quote
       </button>
     </header>
