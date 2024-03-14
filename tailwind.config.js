@@ -24,6 +24,7 @@ module.exports = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         "center-text": "hsl(var(--center-text))",
+        "footer-box": "hsl(var(--footer-box))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -53,6 +54,9 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      minHeight: {
+        "octo-screen": "679px",
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
@@ -71,6 +75,9 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      gridTemplateRows: {
+        octo: "1fr .336fr",
       },
     },
   },
