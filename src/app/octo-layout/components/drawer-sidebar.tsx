@@ -10,7 +10,7 @@ import {
 } from "shared/components/ui/drawer";
 
 import { useSiteData } from "shared/hooks/useHeaderData";
-import InfoBanner from "./info-banner";
+import BannerInfo from "./banner-info";
 
 function DrawerSidebar() {
   const { data } = useSiteData();
@@ -37,7 +37,7 @@ function DrawerSidebar() {
               </nav>
             </DrawerTitle>
 
-            <InfoBanner fixed={false} />
+            <BannerInfo fixed={false} />
           </DrawerHeader>
           <DrawerFooter>
             <header className="flex justify-end gap-x-2 lg:px-10 h-fit">

@@ -2,7 +2,7 @@ import { useSiteData } from "shared/hooks/useHeaderData";
 
 import Header from "./components/header";
 import SessionInfo from "./components/session-info";
-import InfoBanner from "./components/info-banner";
+import BannerInfo from "./components/banner-info";
 
 const LeftSection: React.FC = () => {
   const { data } = useSiteData();
@@ -30,7 +30,7 @@ const LeftSection: React.FC = () => {
             {data?.home["header-cta"]}
           </button>
         </main>
-        <InfoBanner />
+        <BannerInfo />
       </div>
     </section>
   );
